@@ -11358,3 +11358,26 @@ span.submit__error--empty {
 p a {
     color: #087abf;
 }
+@media (max-width: 767px) {
+  .site-footer__bottom {
+    padding: 30px 15px 95px !important;
+  }
+  .site-footer__bottom-inner {
+    text-align: center !important;
+    justify-content: center !important;
+    margin-bottom: 12px;
+  }
+  .site-footer__bottom-text {
+    text-align: center !important;
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+  }
+  .site-footer__bottom-text a.developer-link,
+  .site-footer__bottom-text a[href*="mindaxisinnovation"] {
+    display: block !important;
+    margin-top: 6px;
+    font-size: 15px;
+    word-break: normal;
+  }
+}
